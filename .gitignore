@@ -1,0 +1,20 @@
+.Rproj.user
+.Rhistory
+.Rdata
+.Ruserdata
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+
+# Input csv's
+backend/data-raw/inputs/*
+
+# Todo file
+backend/scripts/todo
+
+# Full export file
+backend/data-raw/outputs/*.csv
+
+# pycache
+**/__pycache__
