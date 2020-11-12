@@ -8,6 +8,7 @@ navbarPage(
            tags$p("US Network Fibers"),
            tags$a(href="https://github.com/NYGPhan/eaiNodeFibers", "Source"),
            tags$p(),
-           DT::dataTableOutput('fibers'))
+           DT::dataTableOutput('fibers')
+  )
 
 )

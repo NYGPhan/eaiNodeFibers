@@ -6,7 +6,9 @@ function(input, output) {
   
   # display 10 rows initially
   output$fibers <- DT::renderDataTable(
-    DT::datatable(data, options = list(pageLength=25))
+    DT::datatable(data, options = list(
+      lengthMenu = list(c(25, 50, -1), c('25', '50', 'All')),
+      pageLength=25))
   )
   
 }
