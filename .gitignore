@@ -7,14 +7,8 @@
 .vscode/*
 !.vscode/settings.json
 
-# Input csv's
-backend/data-raw/inputs/*
+### Data Files ###
+*.xlsm
 
-# Todo file
-backend/scripts/todo
-
-# Full export file
-backend/data-raw/outputs/*.csv
-
-# pycache
-**/__pycache__
+### RsConnect ###
+rsconnect/*
