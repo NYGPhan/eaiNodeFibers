@@ -2,6 +2,7 @@
 .Rhistory
 .Rdata
 .Ruserdata
+*.Rproj
 
 ### VisualStudioCode ###
 .vscode/*
