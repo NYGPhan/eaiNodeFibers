@@ -1,4 +1,3 @@
 library(readxl)
 library(rsconnect)
-
-deployApp()
+library(shiny)

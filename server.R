@@ -2,7 +2,7 @@ function(input, output) {
   
   source("global.R")
   
-  data <- read_excel("US FiNE Node Fibers.xlsm", skip=2)
+  data <- read_excel("nodefibers.xlsm", skip=2)
   
   # display 10 rows initially
   output$fibers <- DT::renderDataTable(
