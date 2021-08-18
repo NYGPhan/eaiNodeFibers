@@ -4,7 +4,6 @@
 .Rdata
 .Ruserdata
 *.Rproj
-/renv/*
 
 ### VisualStudioCode ###
 .vscode/*
