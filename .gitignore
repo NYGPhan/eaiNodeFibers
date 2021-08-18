@@ -2,14 +2,15 @@
 .Rhistory
 .Rdata
 .Ruserdata
+*.Rproj
 
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
+*.code-workspace
 
 ### Data Files ###
 *.xlsm
 
 ### RsConnect ###
-rsconnect/*
-
+rsconnect/
