@@ -1,4 +1,4 @@
-# eaiFiNE
-Hosting a searchable node file.
+# eaiNodeFibers
+Simple Shiny app for Node Fibers information.
 
-Lines in the file are added and removed based on start and end dates.
+Fibers in the file are added and removed based on start and end dates.
