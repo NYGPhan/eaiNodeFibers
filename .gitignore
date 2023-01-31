@@ -4,15 +4,14 @@
 .Rdata
 .Ruserdata
 *.Rproj
-/renv/*
 
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
+*.code-workspace
 
 ### Data Files ###
 *.xlsm
 
 ### RsConnect ###
-rsconnect/*
-
+rsconnect/
