@@ -4,7 +4,7 @@ function(input, output) {
   
   data <- read_excel("nodefibers.xlsm", skip=2)
   
-  # display 10 rows initially
+  # display 25 rows initially
   output$fibers <- DT::renderDataTable(
     DT::datatable(data, options = list(
       lengthMenu = list(c(25, 50, -1), c('25', '50', 'All')),
